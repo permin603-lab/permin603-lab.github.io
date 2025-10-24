@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -203,7 +202,7 @@
       <div class="hero-right">
         <div class="profile" role="img" aria-label="Profile image of Ryle L. De Hitta">
           <!-- Replace below src with your profile image path -->
-          <img src="images/profile.jpg" alt="Ryle L. De Hitta profile photo" onerror="this.onerror=null;this.src='https://via.placeholder.com/420x420.png?text=Profile+Image';" />
+          <img src="IMG_20250814_092221.jpg" alt="Ryle L. De Hitta profile photo" onerror="this.onerror=null;this.src='https://via.placeholder.com/420x420.png?text=Profile+Image';" />
         </div>
       </div>
     </section>
