@@ -20,6 +20,33 @@
     }
     *{box-sizing:border-box}
     html,body{height:100%;margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;color:#e6eef8;background:linear-gradient(180deg,#071026 0%, #07182a 60%);}
+    #backToTop {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: linear-gradient(135deg, #7c3aed, #4f46e5);
+  color: white;
+  border: none;
+  border-radius: 999px;
+  width: 44px;
+  height: 44px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(124,58,237,0.3);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 50;
+}
+#backToTop:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 24px rgba(124,58,237,0.5);
+}
+#backToTop.show {
+  opacity: 1;
+  pointer-events: auto;
+      }
     a{color:inherit;text-decoration:none}
     .site-wrap{max-width:var(--container);margin:0 auto;padding:24px}
     /* Sticky nav */
@@ -217,6 +244,24 @@
         setTimeout(()=>{ photo.style.transition = 'opacity .7s ease, transform .7s ease'; photo.style.opacity = 1; photo.style.transform = 'none'; }, 260);
       }
     })();
+    // Back to Top button logic
+(function(){
+  const btn = document.getElementById('backToTop');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+      btn.classList.add('show');
+    } else {
+      btn.classList.remove('show');
+    }
+  });
+  btn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
   </script>
+  <!-- Back to Top Button -->
+<button id="backToTop" aria-label="Back to top" title="Back to top">
+  ↑
+</button>
 </body>
 </html>
