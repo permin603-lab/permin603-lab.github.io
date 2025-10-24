@@ -221,7 +221,7 @@
           <ul style="margin-top:16px;color:var(--muted);padding-left:18px;line-height:1.8">
             <li>📚 <strong>Course:</strong> BSIT-CPT-1</li>
             <li>💻 <strong>Habit:</strong> Coding and exploring new tech</li>
-            <li>📍 <strong>Location:</strong> Tagkawayan, Philippines</li>
+            <li>📍 <strong>Location:</strong>Brgy. Mapulot,Tagkawayan,Quezon</li>
             <li>💡 <strong>Interests:</strong> AI-powered tools, electronics, Filipino literature, and community impact</li>
           </ul>
         </div>
@@ -234,7 +234,7 @@
 
           <div style="width:100%;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02));padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,0.02);text-align:center">
             <h3 style="margin:0;color:#fff">Location</h3>
-            <p style="margin:6px 0 0;color:var(--muted)">Tagkawayan, Philippines</p>
+            <p style="margin:6px 0 0;color:var(--muted)">Brgy. Mapulot,Tagkawayan,Quezon</p>
           </div>
         </aside>
       </div>
@@ -246,23 +246,23 @@
       <div class="projects-grid" style="margin-top:12px">
         <!-- Project 1 -->
         <article class="project" aria-labelledby="p1">
-          <img src="images/project1.jpg" alt="AnimeInfo project screenshot" style="border-radius:8px;max-height:160px;width:100%;object-fit:cover" onerror="this.onerror=null;this.src='https://via.placeholder.com/800x450.png?text=Project+1';" />
+          <img src="IMG_20251016_170758.png" alt="AnimeInfo project screenshot" style="border-radius:8px;max-height:160px;width:100%;object-fit:cover" onerror="this.onerror=null;this.src='https://via.placeholder.com/800x450.png?text=Project+1';" />
           <h3 id="p1" style="margin:12px 0 6px">AnimeInfo</h3>
           <p class="meta">AI-powered anime search and community curation — React, Node.js, AI</p>
         </article>
 
         <!-- Project 2 -->
         <article class="project" aria-labelledby="p2">
-          <img src="images/project2.jpg" alt="Barangay Assistant project screenshot" style="border-radius:8px;max-height:160px;width:100%;object-fit:cover" onerror="this.onerror=null;this.src='https://via.placeholder.com/800x450.png?text=Project+2';" />
-          <h3 id="p2" style="margin:12px 0 6px">Barangay Assistant</h3>
-          <p class="meta">Community tools for local governance and support — Vue, Firebase</p>
+          <img src="IMG_20251022_080816.jpg" alt="Barangay Assistant project screenshot" style="border-radius:8px;max-height:160px;width:100%;object-fit:cover" onerror="this.onerror=null;this.src='https://via.placeholder.com/800x450.png?text=Project+2';" />
+          <h3 id="p2" style="margin:12px 0 6px">Logic and Switching Theory</h3>
+          <p class="meta</p>logic and switching theory-OR gates Activity</p>
         </article>
 
         <!-- Project 3 -->
         <article class="project" aria-labelledby="p3">
-          <img src="images/project3.jpg" alt="Electronics Experiments project screenshot" style="border-radius:8px;max-height:160px;width:100%;object-fit:cover" onerror="this.onerror=null;this.src='https://via.placeholder.com/800x450.png?text=Project+3';" />
-          <h3 id="p3" style="margin:12px 0 6px">Electronics Experiments</h3>
-          <p class="meta">Capacitor demos, Boolean logic simulations, and hands-on notes — Arduino, Python</p>
+          <img src="Screenshot_20251022_194013_22e4250240c136c826b8a3b1264b092d.jpg" alt="Electronics Experiments project screenshot" style="border-radius:8px;max-height:160px;width:100%;object-fit:cover" onerror="this.onerror=null;this.src='https://via.placeholder.com/800x450.png?text=Project+3';" />
+          <h3 id="p3" style="margin:12px 0 6px">MLBB Highlights </h3>
+          <p class="meta">Mobile legend bang bang Highlights-Honored Tigril</p>
         </article>
       </div>
     </section>
