@@ -255,7 +255,7 @@
         <article class="project" aria-labelledby="p2">
           <img src="IMG_20251022_080816.jpg" alt="Barangay Assistant project screenshot" style="border-radius:8px;max-height:160px;width:100%;object-fit:cover" onerror="this.onerror=null;this.src='https://via.placeholder.com/800x450.png?text=Project+2';" />
           <h3 id="p2" style="margin:12px 0 6px">Logic and Switching Theory</h3>
-          <p class="meta>logic and switching theory-OR gates Activity</p>
+          <p class="meta">logic and switching theory-OR gates Activity</p>
         </article>
 
         <!-- Project 3 -->
